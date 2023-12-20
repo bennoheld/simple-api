@@ -8,7 +8,6 @@ Prerequisites:
 - Python 3
 
 To set up the project, follow these steps:
-
 1. Clone the repository:
     - via SSH: `git clone git@github.com:bennoheld/simple-api.git`
     - via HTTPS: `https://github.com/bennoheld/simple-api.git`
@@ -22,7 +21,9 @@ To set up the project, follow these steps:
 
 ## Configuration
 The service can be configured using environment variables. You can modify the following variables:
-
 - `API_HOST`: The Host URL of the API to listen to. Defaults to `0.0.0.0`
 - `API_PORT`: The Host Port of the API to listen to. Defaults to `5003`
+
+## Image
+- Docker Hub: [bennoheld/simple-api](https://hub.docker.com/r/bennoheld/simple-api)
 
